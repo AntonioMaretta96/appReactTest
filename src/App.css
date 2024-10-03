@@ -32,7 +32,39 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  /* Colore del testo */
+  padding: 10px 20px;
+  /* Padding per rendere il pulsante più grande */
+  text-align: center;
+  /* Centro del testo */
+  text-decoration: none;
+  /* Rimuove la sottolineatura */
+  display: inline-block;
+  /* Permette di avere larghezza e altezza personalizzate */
+  font-size: 16px;
+  /* Dimensione del testo */
+  margin: 10px 2px;
+  /* Margini per distanziare il pulsante */
+  cursor: pointer;
+  /* Cambia il cursore quando si passa sopra il pulsante */
+  border-radius: 5px;
+  /* Rende i bordi del pulsante arrotondati */
+  transition: background-color 0.3s;
+  /* Effetto di transizione sul colore di sfondo */
+}
+
+/* Stile per il pulsante al passaggio del mouse */
+button:hover {
+  background-color: #21a1f1;
+  /* Colore di sfondo più scuro al passaggio del mouse */
 }
