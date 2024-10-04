@@ -8,7 +8,7 @@ function App() {
 
   const fetchRandomUser = async () => {
     try {
-      setToken(process.env.REACT_APP_TOKEN_MONGO);
+      setToken(REACT_APP_TOKEN_MONGO);
       const response = await fetch("https://randomuser.me/api/");
       const data = await response.json();
       setUser(data.results[0]);
