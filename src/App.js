@@ -13,7 +13,7 @@ function App() {
       const response = await fetch("https://randomuser.me/api/");
       const data = await response.json();
       setUser(data.results[0]);
-      console.log("tokentokentokentoken", token);
+      console.log("token", token);
     } catch (error) {
       console.error("Errore nella richiesta:", error);
     }
