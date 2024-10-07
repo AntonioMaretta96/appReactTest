@@ -27,7 +27,7 @@ function App() {
         <h5>Demo App React deployata su Web App statica di Azure</h5>
 
         <button onClick={fetchRandomUser}>
-          Ottieni Utente Random da api test{" "}
+          Ottieni Utente Random da api test!   {" "}
         </button>
 
         {/* Mostra i dettagli dell'utente se presente */}
